@@ -213,6 +213,9 @@ const App = () => {
         <h1 className="  text-center mt-28  w-full font-serif text-8xl text-yellow-300 ">
           Buy <span className="font-signature text-gray-50">Debabrata</span> a Coffee!
         </h1>
+        <p className="text-center text-green-100 text-3xl">
+          Use Goerli test network to transact
+        </p>
       <div >
           <main  >
 
@@ -224,7 +227,8 @@ const App = () => {
                   <div className='className=" w-6/12 '>
                       <div className="relative flex h-14 w-10/12 flex-row-reverse overflow-clip rounded-lg">
                           <input className="peer bg-white  w-full rounded-r-lg border-4 px-2 text-slate-800 text-2xl  placeholder-slate-200 transition-colors duration-300 focus:border-sky-400 focus:outline-none focus:bg-white  bg-opacity-30" type="text" name="name" id="name" placeholder="Please type your Name" onChange={onNameChange} />
-                          <label className=" flex items-center rounded-l-lg border bg-opacity-70 w-9/12 pr-5 text-black font-bold text-xl pl-8 border-slate-400 bg-slate-50 px-2transition-colors duration-300 peer-focus:border-sky-400 peer-focus:bg-sky-400 peer-focus:text-white" for="name">Name</label>
+                          <label className=" flex items-center rounded-l-lg border bg-opacity-70 w-9/12 pr-5 text-black font-bold text-xl pl-8 border-slate-400 bg-slate-50 px-2transition-colors duration-300 peer-focus:border-sky-400 peer-focus:bg-sky-400 peer-focus:text-white" for="name">Name
+                          </label>
                       </div>
                         <br />
                       <div className=" w-10/12 relative flex h-48  flex-row-reverse overflow-clip rounded-lg">
@@ -248,6 +252,7 @@ const App = () => {
                     <svg className="w-9 h-9 mr-2 -ml-1 text-[#626890]" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="ethereum" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"></path></svg>
                     Send 1 small Coffee for 0.001ETH
                     </button>
+                    
                     <button type="button" className="pl-16 w-4/6 mt-16 h-24 text-4xl hover:text-red-600 hover:bg-yellow-400  bg-lime-500 text-white   focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg  px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2" onClick=
                     { buyLargeCoffee}>
                     <svg className="w-11 h-11 mr-2 -ml-3 text-[#626890]" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="ethereum" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"></path></svg>
